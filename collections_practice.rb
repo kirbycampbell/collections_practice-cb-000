@@ -24,7 +24,7 @@ end
 
 def kesha_maker(strings)
   strings.each do |i|
-    
+
   end
 end
 
