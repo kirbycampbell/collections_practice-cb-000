@@ -44,3 +44,16 @@ end
 def sum_array(array)
   array.inject(0){|sum, x| sum + x}
 end
+
+def add_s(array)
+  new_array = []
+  array.each do |i|
+    if i != i[1]
+        i + "s"
+        i << new_array
+      else
+        i << new_array
+    end
+    new_array
+  end
+end
