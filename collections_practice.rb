@@ -48,7 +48,9 @@ end
 def add_s(array)
   new_array = []
   array.each do |i|
-    if array != array[1]
+    if i == array[1]
+      next
+    else
         i.insert(-1, "s")
         new_array << i
     end
