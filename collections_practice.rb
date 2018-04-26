@@ -21,3 +21,15 @@ end
 def reverse_array(int)
   int.reverse
 end
+
+def kesha_maker(strings)
+  strings.each do |i|
+    
+  end
+end
+
+def find_a(array)
+  array.collect do |i|
+    i.start_with
+  end
+end
